@@ -153,7 +153,7 @@ nav ul li a {
   color: var(--primary-font-color);
 }
 
-nav, #hamburger-checkbox {
+#hamburger-checkbox {
   display: none;
 }
 
@@ -291,11 +291,11 @@ nav, #hamburger-checkbox {
     font-size: 30px;
     padding-left: 50px;
   }
-  #hamburger-checkbox:checked ~ #main-list {
+  #hamburger-checkbox:checked{
     display: none;
   }
 
-  #main-list{
+  #hamburger-checkbox{
     display: inline-block
   }
 
